@@ -25,7 +25,6 @@ describe "Creating todo lists" do
 		
 		expect(TodoList.count).to eq(0)
 		expect(page).to have_content("error")
-
 		visit "/todo_lists"
 		expect(page).to_not have_content("This is my todo list")
 	end
@@ -37,7 +36,6 @@ describe "Creating todo lists" do
 
 		expect(TodoList.count).to eq(0)
 		expect(page).to have_content("error")
-
 		visit "/todo_lists"
 		expect(page).to_not have_content("This is my todo list")
 	end
@@ -49,7 +47,6 @@ describe "Creating todo lists" do
 		
 		expect(TodoList.count).to eq(0)
 		expect(page).to have_content("error")
-
 		visit "/todo_lists"
 		expect(page).to_not have_content("My todo list")
 	end
@@ -61,7 +58,6 @@ describe "Creating todo lists" do
 		
 		expect(TodoList.count).to eq(0)
 		expect(page).to have_content("error")
-
 		visit "/todo_lists"
 		expect(page).to_not have_content("My todo list")
 	end
