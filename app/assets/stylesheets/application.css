@@ -13,6 +13,14 @@
  *= require_tree .
  *= require_self
  */
+body {
+	margin: 0px;
+}
+
+.container {
+	margin: 20px;
+}
+
 div.alert {
 	border: 2px solid #aaa;
 	padding: 10px;
@@ -31,4 +39,30 @@ div.flash.error {
 div.flash.notice {
 	border: 2px solid blue;
 	color: blue;
+}
+
+.nav h1 {
+	color: white;
+	background-color: #648B36;
+	padding: 20px;
+	margin: 0px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav ul {
+	background-color: #A3A385;
+	margin: 0px;
+	padding: 10px 10px 10px 20px;
+}
+
+.nav li {
+	list-style-type: none;
+}
+
+td {
+	padding: 2px 7px 2px 7px;
 }
